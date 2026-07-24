@@ -1,0 +1,74 @@
+# .project metadata for Kuma
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kuma"
+name: "Kuma"
+description: "The universal Envoy service mesh for distributed service connectivity"
+type: "project"
+project_lead: "jakubdyszkiewicz" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kuma"
+    primary: true
+  - name: "#where-to-seek-for-help"
+  - name: "#developer"
+  - name: "#where-to-seek-help"
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2020-06-25T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/1078" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kumahq/kuma"
+
+website: "https://kuma.io"
+
+artwork: "https://landscape.cncf.io/logos/kuma-stacked-color.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kumahq/kuma/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kumahq/kuma"
+
+social:
+  twitter: "https://twitter.com/KumaMesh"
+
+security:
+  policy:
+    path: "https://github.com/kumahq/kuma/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kumahq/kuma/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kumahq/kuma/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kumahq/kuma/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kumahq/kuma/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kumahq/kuma/blob/master/README.md"
+
+landscape:
+  category: "Orchestration & Management"
+  subcategory: "Service Mesh"
+
+# CLOMonitor Score: 89/100
+# Documentation: 97 | License: 75 | Best Practices: 100 | Security: 77
