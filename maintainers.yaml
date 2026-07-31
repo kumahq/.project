@@ -9,14 +9,9 @@ maintainers:
     teams:
       - name: "project-maintainers"
         members:
-          - jakubdyszkiewicz
-          - lobkovilya
-          - nickolaev
-          - subnetmarco
-          - austince
           - bartsmykla
           - lahabana
-          - jpeach
-          - michaelbeaumont
-          - parkanzky
-          - Icarus9913
+          - Automaat
+          - lobkovilya
+          - slonka
+          - lukidzi
